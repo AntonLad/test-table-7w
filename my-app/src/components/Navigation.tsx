@@ -38,7 +38,6 @@ const Navigation = () => {
                 <DashboardRoundedIcon fontSize="small"/>
                 <span className="navigateItemSpan">{it}</span> 
               </div>
-
             </div>
           )
         })}

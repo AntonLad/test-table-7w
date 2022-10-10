@@ -11,16 +11,14 @@ const Header = () => {
         <ViewComfyIcon />
         <ReplyIcon />
         <div>Просмотр</div>
-        <div>Управление</div>
+        <div id="start">Управление</div>
       </div>
       <div className="headerWrapper right"> 
         <MoodIcon />
-        <div>Антон Петров</div>
+        <div id="end">Антон Петров</div>
         <KeyboardArrowDownIcon />
       </div>
-
     </div>
-
   )
 }
 export default Header

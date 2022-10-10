@@ -1,5 +1,5 @@
 body {
-  background: #373737;
+  background: #27272A;
   color: #fdfcfc;
   box-sizing: border-box;
   margin: 0;
@@ -16,9 +16,17 @@ code {
 }
 
 input {
-  background: #373737;
+  background: #202124;
   color: #fdfcfc;
-  border: 1px solid #767676;
+  border: 1px solid #414144;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 10px 0;
+  height: 36px;
+  width: 95%;
 }
 
 .mainWrapper {
@@ -84,6 +92,7 @@ input {
 .tableWrapper {
   border-bottom: 1px solid #767676;
   width: 85%;
+  background-color: #202124;
 }
 
 .tableTitleWrapper {
@@ -97,4 +106,66 @@ input {
   border-right: 1px solid #767676;
   height:16px;
   padding:10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.columnLevel {
+  text-align: left;
+  width: 10%;
+}
+
+.columnTitle {
+  width: 50%;
+  text-align: left;
+}
+
+.columnData {
+  width: 10%;
+  text-align: left;
+}
+
+.caption {
+  text-align: left;
+  border-bottom: 1px solid #767676;
+  height: 50px;
+}
+
+.tableRow {
+  height: 50px;
+  padding-top: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  border-bottom: 1px solid #767676;
+}
+
+th {
+  border-bottom: 1px solid #767676;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.1px;
+  color: #A1A1AA;
+}
+
+.countLine {
+  padding-left: 50px;
 }

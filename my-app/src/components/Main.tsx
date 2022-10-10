@@ -12,9 +12,7 @@ const Main = () => {
         <Navigation />
         <TableMain />
       </div>
-
     </>
-
   )
 }
 export default Main

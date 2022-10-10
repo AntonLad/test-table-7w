@@ -8,10 +8,9 @@ const TableMain = () => {
         <div className="tableTitleWrapper"> 
           <div className="tableTitle">Строительно-монтажные работы</div>
         </div>
-<Table />
+      <Table />
       </div>
-    </>
-
+    </>   
   )
 }
 export default TableMain

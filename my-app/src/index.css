@@ -116,11 +116,11 @@ input {
 
 .columnLevel {
   text-align: left;
-  width: 10%;
+  /* width: 10%; */
 }
 
 .columnTitle {
-  width: 50%;
+  width: 45%;
   text-align: left;
 }
 
@@ -167,5 +167,32 @@ th {
 }
 
 .countLine {
-  padding-left: 50px;
+  position: relative;
+}
+
+.countLine::before {
+  content: '';
+  background-image: url(../src/icons/Line\ 23.svg);
+  width: 22px;
+  height: 2px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.verticalLine {
+  width: 0;
+  border: 1px solid #a3a2a2;
+  position: absolute;
+  left: 25px
+}
+
+.verticalLineChild {
+  width: 0;
+  border: 1px solid #a3a2a2;
+  position: absolute;
+  /* left: 50px */
+}
+
+.levelWrapper {
+  position: relative;
 }
